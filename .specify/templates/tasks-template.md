@@ -12,6 +12,20 @@ description: "Task list template for feature implementation"
 
 **Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
 
+## Constitution Check
+
+Before tasks are generated, plans MUST include a short `Constitution Check`
+that documents how the feature aligns with the project constitution. Include
+brief notes or links covering:
+
+- **Clean Code**: testing strategy and linting/formatting requirements.
+- **Documentation & Comments**: public API docs and intent comments for
+  non-obvious design choices.
+- **Simple UX**: primary user flow and accessibility considerations.
+- **Responsive & Performance**: responsive behavior and any performance
+  budgets or monitoring expectations.
+- **Dependencies**: any new dependencies and vetting justification.
+
 ## Format: `[ID] [P?] [Story] Description`
 
 - **[P]**: Can run in parallel (different files, no dependencies)

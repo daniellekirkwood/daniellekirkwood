@@ -5,6 +5,22 @@
 **Status**: Draft  
 **Input**: User description: "$ARGUMENTS"
 
+## Constitution Check
+
+Feature specs MUST include a short `Constitution Check` section that explains
+how the proposed work aligns with the project constitution. At minimum,
+provide brief notes or links for each of the following:
+
+- **Clean Code**: testing approach, linting/formatting, and modular boundaries.
+- **Documentation & Comments**: link to public API docs and note intent
+  comments for non-obvious decisions.
+- **Simple UX**: primary user flow, error handling, and accessibility
+  considerations.
+- **Responsive & Performance**: responsive strategy, performance budgets,
+  and monitoring plans (where applicable).
+- **Dependencies**: list any new dependencies, justification, and vetting
+  summary (maintenance/activity, security advisories, pinning strategy).
+
 ## User Scenarios & Testing *(mandatory)*
 
 <!--
